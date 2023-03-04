@@ -1,0 +1,59 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+
+.category {
+  display: flex;
+  font-family: Roboto;
+  color: #64748b;
+  font-size: 15px;
+  margin: 5px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.rating {
+  display: flex;
+  justify-content: flex-start;
+}
+.rating-name {
+  color: black;
+  margin-bottom: 30px;
+}
+
+.heading {
+  font-family: Roboto;
+  font-size: 20px;
+}
+
+.image {
+  height: 28px;
+  width: 150px;
+}
+
+.button {
+  height: 40px;
+  width: 130px;
+  background-color: transparent;
+  border-width: 2px;
+  border-color: #0967d2;
+  color: #0967d2;
+  border-radius: 5px;
+  margin-left: 20px;
+}
